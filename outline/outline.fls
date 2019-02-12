@@ -1,0 +1,105 @@
+PWD c:/Users/Jeff/Documents/Classes/thesis/outline
+INPUT C:/Users/Jeff/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/outline.tex
+OUTPUT c:/Users/Jeff/Documents/Classes/thesis/outline/outline.log
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/report.cls
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/report.cls
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/fontenc.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/t1enc.def
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/t1enc.def
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/outline.aux
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/outline.aux
+OUTPUT c:/Users/Jeff/Documents/Classes/thesis/outline/outline.aux
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/lm/t1lmtt.fd
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/lm/t1lmtt.fd
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmtt10.tfm
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecrm1440.tfm
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/jknappen/ec/ecbx1440.tfm
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/lm/ec-lmtti10.tfm
+OUTPUT c:/Users/Jeff/Documents/Classes/thesis/outline/outline.pdf
+INPUT C:/Users/Jeff/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_ccdview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_ccdview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_ccdview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_ccdview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_ccdview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_frontalview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_frontalview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_frontalview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_frontalview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_frontalview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_prism-multilayerview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_prism-multilayerview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_prism-multilayerview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_prism-multilayerview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/media/setup_prism-multilayerview.PNG
+INPUT c:/Users/Jeff/Documents/Classes/thesis/outline/outline.aux
+INPUT C:/Users/Jeff/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk
+INPUT C:/Users/Jeff/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
+INPUT C:/Users/Jeff/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk
+INPUT C:/Users/Jeff/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb
+INPUT C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb
