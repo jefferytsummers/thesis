@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.24)  11 FEB 2019 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.24)  11 FEB 2019 18:55
 entering extended mode
 **c:/Users/Jeff/Documents/Classes/thesis/outline/outline.tex
 (c:/Users/Jeff/Documents/Classes/thesis/outline/outline.tex
@@ -177,17 +177,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <media/setup_ccdview.PNG, id=15, 987.69pt x 572.89032pt>
 File: media/setup_ccdview.PNG Graphic file (type png)
 <use media/setup_ccdview.PNG>
-Package pdftex.def Info: media/setup_ccdview.PNG  used on input line 37.
+Package pdftex.def Info: media/setup_ccdview.PNG  used on input line 38.
 (pdftex.def)             Requested size: 345.69667pt x 200.5146pt.
 <media/setup_frontalview.PNG, id=17, 1064.47687pt x 490.83376pt>
 File: media/setup_frontalview.PNG Graphic file (type png)
 <use media/setup_frontalview.PNG>
-Package pdftex.def Info: media/setup_frontalview.PNG  used on input line 38.
+Package pdftex.def Info: media/setup_frontalview.PNG  used on input line 39.
 (pdftex.def)             Requested size: 372.57248pt x 171.79439pt.
 <media/setup_prism-multilayerview.PNG, id=18, 666.23906pt x 478.03593pt>
 File: media/setup_prism-multilayerview.PNG Graphic file (type png)
 <use media/setup_prism-multilayerview.PNG>
-Package pdftex.def Info: media/setup_prism-multilayerview.PNG  used on input line 39.
+Package pdftex.def Info: media/setup_prism-multilayerview.PNG  used on input line 40.
 (pdftex.def)             Requested size: 233.18716pt x 167.31508pt.
 
 
@@ -203,9 +203,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,7n,25p,1302b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Jeff\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk>{C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc} <C:\Users\Jeff\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk><C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on c:/Users\Jeff\Documents\Classes\thesis\outline\outline.pdf (4 pages, 601065 bytes).
+Output written on c:/Users\Jeff\Documents\Classes\thesis\outline\outline.pdf (4 pages, 607260 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1549932604 "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.tex" "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.pdf" "outline" 1549932605
+["pdflatex"] 1549932902 "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.tex" "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.pdf" "outline" 1549932903
   "C:/Users/Jeff/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1549930766 40136 09bb73aeef3f46c5c91425211e0a4f1b ""
   "C:/Users/Jeff/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000.pk" 1537755234 23808 a44656f0a8a6c1bfb6de5ef4161ebd15 ""
   "C:/Users/Jeff/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1532459119 4160442 ab7159b93e89299ff1a17841947950b1 ""
@@ -45,17 +45,17 @@
   "C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty" 1522791045 12095 5337833c991d80788a43d3ce26bd1c46 ""
   "C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty" 1522791045 7075 2fe3d848bba95f139de11ded085e74aa ""
   "C:/Users/Jeff/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty" 1522791047 22417 1d9df1eb66848aa31b18a593099cf45c ""
-  "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.aux" 1549932605 9 a94a2480d3289e625eea47cd1b285758 ""
-  "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.tex" 1549932602 7069 db561ed510744aa6878a5d47cc8bb048 ""
+  "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.aux" 1549932903 9 a94a2480d3289e625eea47cd1b285758 ""
+  "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.tex" 1549932900 7704 cbcae8f3c8cd7c2935d6b75536e88354 ""
   "media/setup_ccdview.PNG" 1549931961 250510 9ada7ae8134a87b8793a1d71273bedbd ""
   "media/setup_frontalview.PNG" 1549931999 184523 ce5ddb8a6bd9c5abfb5fa51a3b487556 ""
   "media/setup_prism-multilayerview.PNG" 1549932037 173625 a3e1be3c0e22d82d00c881d5d69f81eb ""
-  "outline.aux" 1549932605 9 a94a2480d3289e625eea47cd1b285758 ""
-  "outline.tex" 1549932602 7069 db561ed510744aa6878a5d47cc8bb048 ""
+  "outline.aux" 1549932903 9 a94a2480d3289e625eea47cd1b285758 ""
+  "outline.tex" 1549932900 7704 cbcae8f3c8cd7c2935d6b75536e88354 ""
   (generated)
-  "outline.aux"
+  "graphicx.aux"
   "outline.pdf"
   "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.pdf"
-  "graphicx.aux"
-  "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.log"
+  "outline.aux"
   "outline.log"
+  "c:/Users/Jeff/Documents/Classes/thesis/outline/outline.log"

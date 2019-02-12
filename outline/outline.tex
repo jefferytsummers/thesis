@@ -34,6 +34,7 @@
 	\vspace{0.5cm}
 	\begin{figure}[h]
 		\centering
+		Some figures of the experimental setup
 		\raisebox{-0.5\height}{\includegraphics[scale=0.35]{media/setup_ccdview.PNG}}
 		\raisebox{-0.5\height}{\includegraphics[scale=0.35]{media/setup_frontalview.PNG}}
 		\raisebox{-0.5\height}{\includegraphics[scale=0.35]{media/setup_prism-multilayerview.PNG}}
@@ -41,17 +42,16 @@
 	
 	\section*{Software Design}
 	\vspace{-0.1cm}\hrule\vspace{0.2cm}
-	A vital part in using our flowcell is capturing data during a run and analyzing that data. To do this I have created a program that captures video from the CCD and processes that data in real time to display the index of refraction within the flowcell chamber.\\
-	The program was built with the Electron package from the Node.js framework. This package uses the popular web-languages HTML, Javascript, and CSS. Electron provides programs access to more hardware than web browsers resulting in clean, styled, and fast programs.
+	A vital part in using our flowcell is capturing data during a run and analyzing that data. To do this I have created a program that captures video from the CCD and processes that data in real time to display the index of refraction within the flowcell chamber by tracking the angular deviation of the dark band in the reflected image as the medium changes within the flow cell.\\
+	The program was built with the Electron package from the Node.js framework. This package uses the popular web-languages HTML, Javascript, and CSS. Electron provides programs access to more hardware than web browsers resulting in clean, styled, and fast programs.\\
 	\section*{Methods}
 	\vspace{-0.1cm}\hrule\vspace{0.2cm}
+	We test our setup by measuring the change in index of the flowcell chamber. For example, the flowcell, initially filled with water, has a 50/50 sugar water solution poured into the chamber via a syringe.	Our computer program collects the data and displays a graph that tracks the angular variance of the BSW over time. By analyzing this data we can determine the index of refraction in the chamber as a function of time. For a chemical reaction, we could relate the change in index over time to reactivity of reactants.
 	\section*{Results}
 	\vspace{-0.1cm}\hrule\vspace{0.2cm}
 	TBD\\
 	\section*{Conclusions}
 	\vspace{-0.1cm}\hrule\vspace{0.2cm}
 	TBD\\
-	\pagebreak
-	Some figures to use in the paper
 	\end{flushleft}
 \end{document}
