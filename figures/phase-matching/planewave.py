@@ -2,15 +2,15 @@ from mpl_toolkits import mplot3d
 #%matplotlib inline
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.widgets import Slider, Button
 from matplotlib import cm
 
-#fig = plt.figure()
-#ax = plt.axes(projection='3d')
 # Parameters
 n1  = 1.5
-n2  = 1.0
+n20  = 1.0 # Initial value of transmitting index
+           # Will be changeabe with a slidebar
 rad = np.pi/180.0  # convert to radians
-th1 = 30*rad
+th0 = 30*rad    # Inital incident angle
 th2 = np.arcsin((n1/n2)*np.sin(th1))
 
 # Data for a 3D trajectory
