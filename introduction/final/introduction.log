@@ -196,7 +196,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count113
 \c@blind@pangrammax=\count114
 ))
-(./introduction.aux)
+No file introduction.aux.
 \openout1 = `introduction.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -211,7 +211,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
@@ -371,8 +370,8 @@ x) )
 ### simple group (level 1) entered at line 51 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3944 strings out of 492641
- 56258 string characters out of 6131787
+ 3942 strings out of 492641
+ 56224 string characters out of 6131787
  231341 words of memory out of 5000000
  7760 multiletter control sequences out of 15000+600000
  6578 words of font info for 19 fonts, out of 8000000 for 9000

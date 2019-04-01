@@ -1,0 +1,37 @@
+\fontfamily{ptm}\selectfont
+\pagenumbering{arabic}
+\section*{I. INTRODUCTION}
+\addcontentsline{toc}{section}{I.\hspace{0.25in}Introduction}
+\begin{flushleft}
+	\hspace{0.5in}
+	Flowcell sensors have many applications; disease detection, measuring refractive index and reactivity to name a few. These sensors have been operating on the basis of electromagnetic surface phenomena for decades. Most flowcells on the market work by exploiting surface plasma oscillations (SPOs). These oscillations are highly sensitive to changes in the optical properties of the adjacent medium and it follows from Maxwell's equations when the dielectric functions of each medium satisfies \cite{JLTROB:1}
+	
+	\[
+    	\frac{\epsilon_{spo}}{\epsilon_{adjacent}} < -1
+	\]
+	\hspace{0.5in}
+	Metals like aluminum, copper, gold, and silver have negative dielectric functions at wavelengths in the red/infrared, so films of these metals are used as to generate SPOs in most flowcell sensors via a process known as Surface Plasmon Resonance (SPR). An SPR system utilizes light-prism coupling to excite the surface electrons on a thin metal film deposited on the hypotenusal face of the prism. There are quite a few drawbacks for using metal films, however. Metals are highly reactive so each time an SPR system is used a new prism must be used. These films also require particular wavelengths of incident light to excite the oscillations. Rather than using metal films, one-dimensional photonic crystals, or multilayers, can be designed to exhibit the phenomenon of surface electromagnetic waves (SEWs) or Bloch surface waves (BSWs), named after the physicist Felix Bloch who was famous for working with periodic systems. These surface waves have the same practical application as SPOs. Multilayers overcome both of the shortcomings of metal films listed here. They can be designed to work for any wavelength and are typically made of nonreactive glass. In addition to these benefits, we expect that our 3-D printed and multilayer-based flowcell sensor will be more sensitive and precise with its measurements and be far cheaper to both build and maintain compared to traditional SPR sensors.
+
+	\hspace{0.5in}
+	To take measurements with our sensor we look at the reflected image of incident laser light. Our multilayer is designed to trap incident light in the last layer at a special angle; this results in a dark band in our reflected image. A diagram of the process is shown below.
+	
+	\hspace{0.5in}
+	As fluids or gases are put into the flowcell chamber the index of refraction, $n_c$, changes. The condition for total internal reflection, found from Snell's law, for the interface between a glass prism and some transmitting medium whose index of refraction varies with time is given by:
+	\[
+			\sin{\theta_c} = \frac{n_t(t)}{n_g}
+	\]
+
+	We obtain an expression for the angle of reflection as a function of time by the Law of Reflection:
+
+	\[
+			\theta_r(t) = \arcsin{\frac{n_t(t)}{n_g}}
+	\]
+
+	\hspace{0.5in}
+	Note that this expression is for a single interface and hence does not accurately reflect our setup as we have a glass prism and a multilayer. With that said, this expression for $\theta_r$ does capture the essence of our setup; the reflected angle is a function of the index of refraction of the transmission. Using this fact we can associate variations in the flowcell chamber's index of refraction with differences in the angle of reflectance. These angular differences can be calculated by tracking the variation in the position of the dark band in the reflected image.
+
+	\hspace{0.5in}
+	Now with an an expression for the rate of change of reflected angle we can measure the index of refraction inside the flowcell chamber over time. From this data we can interpolate the mutual reactivity between molecules in a reaction, or maybe the rate of mixing of sugar water at a given temperature.
+
+	\pagestyle{empty}
+\end{flushleft}
