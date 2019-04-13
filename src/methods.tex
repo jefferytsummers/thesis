@@ -3,26 +3,54 @@
 \hspace{0.25in}
 To collect data from our biosensor we first prepare the flowcell chamber with the correct substrate or liquid that acts as our reference point for measuring changes in optical properties. After the chamber is prepared we then turn on the beam and rotate it until the special angle is reached. 
 
-\begin{wrapfigure}{L}{6cm}
-    \includegraphics[width=6cm]{reflectivity_dip.png}
-\end{wrapfigure}
-
-This is quite a precise angle so we orient the beam near the the mode $\sim 63^{\circ}$ from the prism's surface normal for a chamber filled with water or air using our multilayer stack as seen in ??. This plot was generated from a Python program that I wrote which use a transfer matrix method to generate reflection and transmission amplitudes for a multilayer stack like the one we use in our experiment. To confirm the light has coupled to the surface mode we check the reflected image of the beam for a dark vertical band as seen in ??.
-
-\begin{wrapfigure}{R}{6cm}
-	\includegraphics[width=6cm]{darkband.png}
+\begin{wrapfigure}{L}{4in}
+    \includegraphics[width=4in]{reflectivity_dip.png}
 \end{wrapfigure}
 
 As the index of refraction inside the flowcell chamber changes the dark band will translate left or right in our reflected image, depending on whether the index is increasing or decreasing. The shift in location of the band, in pixels, corresponds to an angular shift in the part of the reflected beam giving rise to the dark band. This is shown clearly in ?? as we see that a change from an index of 1.00 (air) to 1.33 (water) corresponds to an angular shift  of about $3^\circ$.
 
+% \begin{wrapfigure}{R}{6cm}
+% 	\includegraphics[width=6cm]{darkband.png}
+% \end{wrapfigure}
 
-To test our sensor, we first fill the flowcell with water and then inject different concentrations watered down ethanol, isopropal alcohol, and acetone. The table below lists the indices of refraction for all of these liquids.
+Using the calculated data we can build a model to relate the index of refraction in the chamber to a shift in pixels on our CCD. To construct this relation we require Snell's law and some geometry. Using the classic formula for arclength and the diagram below we find:\\
+
+\begin{figure}[h!]
 \begin{center}
-\begin{tabular}{| c | c c c c c |}
-	\hline
-    {}      			& Ethanol & Isopropal Alcohol & Acetone & Water \\
-	\hline
-	Index of Refraction & 1.361   & 1.3772            & 1.3588  & 1.333 \\
-    \hline
-\end{tabular}
+\includegraphics[width=6in]{pixelshiftfromangle.png}
 \end{center}
+\end{figure}
+
+\begin{equation*}
+	dx = R d\theta_t
+\end{equation*}
+
+Using Snell's law we find
+
+\begin{equation*}
+	\theta_t = \arcsin(\sin(n_g \theta_r))
+\end{equation*}
+
+Which implies that
+
+\begin{equation*}
+\begin{split}
+	d\theta_t & = d\left(\arcsin\left(n_g \sin{\theta_r}\right)\right) \\
+			  & = \cfrac{n_g \cos{\theta_r}}{\sqrt{1-n_g^2 \sin^{2}(\theta_r)}}\,\,d\theta_r
+\end{split}
+\end{equation*}
+
+
+This leaves us with the relation between pixel shift and angular shift:
+
+\begin{equation}
+	dx = \cfrac{R n_g \cos{\theta_r}}{\sqrt{1-n_g^2 \sin^{2}(\theta_r)}} \,\,d\theta_r
+\end{equation}
+
+Numerically we can determine the relationship between the reflected angle and the index inside the chamber. I wrote a python program to do just that for our multilayer, assuming it is initially filled with water, and a graph of mode position ($\theta_r$) vs index of refraction is plotted below.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=6in]{modeposition_vs_index.png}
+\end{center}
+\end{figure}
