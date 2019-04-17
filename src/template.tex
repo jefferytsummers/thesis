@@ -11,6 +11,8 @@
 \usepackage[center]{titlesec}
 
 % Formatting
+\usepackage{setspace}
+\doublespacing
 \usepackage{caption}
 \hyphenation{con-sti-tu-tion-al}
 \usepackage{amsmath}
@@ -21,10 +23,15 @@
 \usepackage{float}
 \usepackage{booktabs}
 \graphicspath{ {../figures/} }
+
 % Table of Contents
 \usepackage{tocloft}
 \usepackage{etoolbox}
 
+% List of Figures
+\makeatletter
+\renewcommand*\l@figure{\@dottedtocline{1}{0em}{7em}}
+\makeatother
 
 % Ensure dots in table of contents
 \makeatletter
@@ -36,7 +43,7 @@
 \renewcommand*\listfigurename{\textbf{LIST OF FIGURES}}
 
 \begin{document}
-
+\pagestyle{empty}
 % Title
 % \pagenumbering{roman}
 \begin{center}
@@ -44,40 +51,40 @@
     Novel Approach to Constructing an Ultra Low Cost Flowcell Biosensor\\
 }
 % 4 returns = ?? vspace
-\vspace{2cm}
+\vspace{1.7cm}
 {\fontfamily{ptm}\large\selectfont
     THESIS\\
 }
 % 5 returns = ?? vspace
-\vspace{2.2cm}
+\vspace{2cm}
 {\fontfamily{ptm}\large\selectfont
     Presented to the Faculty of the Department of Physics and Astronomy\\
     in Partial Fulfillment of the Major Requirements\\
     for the Degree of\\
 }
 % 6 returns = ?? vspace
-\vspace{2.4cm}
+\vspace{2.1cm}
 {\fontfamily{ptm}\large\selectfont
     BACHELOR OF SCIENCE IN\\
     PHYSICS\\
 }
 % 6 returns = ?? vspace
-\vspace{2.4cm}
+\vspace{2cm}
 {\fontfamily{ptm}\selectfont
-    Jeffery Summers\\
+    \large{Jeffery Summers}\\
 }
 % 6 returns = ?? vspace
-\vspace{2.4cm}
+\vspace{1.6cm}
 {\fontfamily{ptm}\selectfont
-    May 2019\\
+    \large{May 2019}\\
 }
 % 6 returns = ?? vspace
-\vspace{2.4cm}
-{\fontfamily{ptm}\large\selectfont
+\vspace{2cm}
+{\fontfamily{ptm}\selectfont
     \copyright 2019 Middle Tennessee State University\\
     All rights reserved.\\
 }
-\vspace{0.4cm}
+\vspace{0.2cm}
 {\fontfamily{ptm}\small\selectfont
     The author hereby grants to MTSU permission to reproduce\\
     and to distribute publicly paper and electronic\\
@@ -85,7 +92,6 @@
     in any medium now known or hereafter created.\\
 }
 \end{center}
-\pagestyle{empty}
 \pagenumbering{roman}
 
 \pagebreak
@@ -103,7 +109,7 @@
 Jeffery Summers
 }
 % 18 returns = ?? vspace
-\vspace{8.4cm}
+\vspace{8cm}
 \end{center}
 % Author signature
 \begin{flushleft}
@@ -119,7 +125,7 @@ Jeffery Summers
     May 2019\\
     }
 \end{flushright}
-\vspace{2cm}
+\vspace{1.5cm}
 % Thesis supervisor signature
 \begin{flushleft}
     {\fontfamily{ptm}\selectfont
@@ -135,7 +141,7 @@ Jeffery Summers
     Thesis Supervisor\\
     }
 \end{flushright}
-\vspace{2cm}
+\vspace{1.5cm}
 % Department chair signature
 \begin{flushleft}
     {\fontfamily{ptm}\selectfont
@@ -151,7 +157,7 @@ Jeffery Summers
     Chair, Physics \& Astronomy\\
     }
 \end{flushright}
-\vspace{2cm}
+\vspace{1.5cm}
 
 \pagestyle{plain}
 \pagebreak
@@ -172,9 +178,13 @@ Jeffery Summers
 \include{introduction}
 \pagebreak
 
-% Theory
-\include{theory}
+% Experimental Setup
+\include{experimentaldesign}
 \pagebreak
+
+% % Theory
+% \include{theory}
+% \pagebreak
 
 % Methods
 \include{methods}

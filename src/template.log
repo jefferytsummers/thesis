@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.2.27)  13 APR 2019 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.2.27)  17 APR 2019 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -67,6 +67,8 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen113
 \titlewidthlast=\dimen114
 \titlewidthfirst=\dimen115
+) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
@@ -222,21 +224,21 @@ Package tocloft Info: The document has section divisions on input line 51.
 ) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count112
-) (/home/jeff/Documents/classes/spring2019/thesis/src/template.aux (/home/jeff/Documents/classes/spring2019/thesis/src/abstract.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/introduction.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/theory.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/methods.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/results.aux))
+) (/home/jeff/Documents/classes/spring2019/thesis/src/template.aux (/home/jeff/Documents/classes/spring2019/thesis/src/abstract.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/introduction.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/experimentaldesign.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/methods.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/results.aux))
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -322,23 +324,23 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 43.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 50.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 77.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 84.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 \openout2 = `abstract.aux'.
 
  (/home/jeff/Documents/classes/spring2019/thesis/src/abstract.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--160
+Underfull \hbox (badness 10000) in paragraph at lines 3--166
 
  []
 
@@ -366,99 +368,90 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 LaTeX Warning: Citation `JLTROB:1' on page 1 undefined on input line 7.
 
-) [1
+<../figures/spr.png, id=25, 236.082pt x 140.9265pt>
+File: ../figures/spr.png Graphic file (type png)
+<use ../figures/spr.png>
+Package pdftex.def Info: ../figures/spr.png  used on input line 16.
+(pdftex.def)             Requested size: 361.34999pt x 215.72005pt.
+[1
 
-]
-\openout2 = `theory.aux'.
+ <../figures/spr.png>]
+<../figures/experimental_setup.png, id=35, 793.46437pt x 502.12593pt>
+File: ../figures/experimental_setup.png Graphic file (type png)
+<use ../figures/experimental_setup.png>
+Package pdftex.def Info: ../figures/experimental_setup.png  used on input line 27.
+(pdftex.def)             Requested size: 469.75502pt x 297.27841pt.
+ [2 <../figures/experimental_setup.png (PNG copy)>]) [3]
+\openout2 = `experimentaldesign.aux'.
 
- (/home/jeff/Documents/classes/spring2019/thesis/src/theory.tex) [2
+ (/home/jeff/Documents/classes/spring2019/thesis/src/experimentaldesign.tex) [4
 
 
 ]
 \openout2 = `methods.aux'.
 
  (/home/jeff/Documents/classes/spring2019/thesis/src/methods.tex
-<../figures/reflectivity_dip.png, id=36, 388.23444pt x 267.10992pt>
+<../figures/reflectivity_dip.png, id=46, 388.23444pt x 267.10992pt>
 File: ../figures/reflectivity_dip.png Graphic file (type png)
 <use ../figures/reflectivity_dip.png>
 Package pdftex.def Info: ../figures/reflectivity_dip.png  used on input line 7.
 (pdftex.def)             Requested size: 289.07999pt x 198.89728pt.
 
-Underfull \hbox (badness 1264) in paragraph at lines 16--17
-\T1/ptm/m/n/10 a model to re-late the in-dex of re-frac-
- []
-
-
-Underfull \hbox (badness 1112) in paragraph at lines 16--17
-\T1/ptm/m/n/10 tion in the cham-ber to a shift in pix-
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 16--17
-\T1/ptm/m/n/10 els on our CCD. To con-struct this re-
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 16--17
-\T1/ptm/m/n/10 ge-om-e-try. Us-ing the clas-sic for-mula
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<../figures/pixelshiftfromangle.png, id=38, 935.74594pt x 391.4625pt>
+<../figures/pixelshiftfromangle.png, id=47, 935.74594pt x 391.4625pt>
 File: ../figures/pixelshiftfromangle.png Graphic file (type png)
 <use ../figures/pixelshiftfromangle.png>
 Package pdftex.def Info: ../figures/pixelshiftfromangle.png  used on input line 20.
 (pdftex.def)             Requested size: 433.62pt x 181.40099pt.
-[3
-
-
- <../figures/reflectivity_dip.png> <../figures/pixelshiftfromangle.png>]
-<../figures/modeposition_vs_index.png, id=44, 777.6252pt x 529.7391pt>
-File: ../figures/modeposition_vs_index.png Graphic file (type png)
-<use ../figures/modeposition_vs_index.png>
-Package pdftex.def Info: ../figures/modeposition_vs_index.png  used on input line 54.
-(pdftex.def)             Requested size: 433.62pt x 295.39897pt.
-) [4 <../figures/modeposition_vs_index.png>]
-\openout2 = `results.aux'.
-
- (/home/jeff/Documents/classes/spring2019/thesis/src/results.tex
-<../figures/annotated_mode_4-1-2019.png, id=50, 462.528pt x 346.896pt>
-File: ../figures/annotated_mode_4-1-2019.png Graphic file (type png)
-<use ../figures/annotated_mode_4-1-2019.png>
-Package pdftex.def Info: ../figures/annotated_mode_4-1-2019.png  used on input line 15.
-(pdftex.def)             Requested size: 289.07999pt x 216.82004pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--16
-[] []
- []
-
 [5
 
 
- <../figures/annotated_mode_4-1-2019.png>] (/home/jeff/Documents/classes/spring2019/thesis/src/template.aux (/home/jeff/Documents/classes/spring2019/thesis/src/abstract.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/introduction.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/theory.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/methods.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/results.aux))
+ <../figures/reflectivity_dip.png> <../figures/pixelshiftfromangle.png>]
+<../figures/modeposition_vs_index.png, id=53, 777.6252pt x 529.7391pt>
+File: ../figures/modeposition_vs_index.png Graphic file (type png)
+<use ../figures/modeposition_vs_index.png>
+Package pdftex.def Info: ../figures/modeposition_vs_index.png  used on input line 53.
+(pdftex.def)             Requested size: 433.62pt x 295.39897pt.
+) [6 <../figures/modeposition_vs_index.png>]
+\openout2 = `results.aux'.
+
+ (/home/jeff/Documents/classes/spring2019/thesis/src/results.tex
+<../figures/annotated_mode_4-1-2019.png, id=59, 462.528pt x 346.896pt>
+File: ../figures/annotated_mode_4-1-2019.png Graphic file (type png)
+<use ../figures/annotated_mode_4-1-2019.png>
+Package pdftex.def Info: ../figures/annotated_mode_4-1-2019.png  used on input line 16.
+(pdftex.def)             Requested size: 289.07999pt x 216.82004pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--17
+[] []
+ []
+
+[7
+
+
+ <../figures/annotated_mode_4-1-2019.png>] (/home/jeff/Documents/classes/spring2019/thesis/src/template.aux (/home/jeff/Documents/classes/spring2019/thesis/src/abstract.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/introduction.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/experimentaldesign.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/methods.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/results.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) )
-(\end occurred when \iftrue on line 184 was incomplete)
-(\end occurred when \ifnum on line 184 was incomplete) 
+(\end occurred when \iftrue on line 194 was incomplete)
+(\end occurred when \ifnum on line 194 was incomplete) 
 Here is how much of TeX's memory you used:
- 4948 strings out of 492641
- 73373 string characters out of 6131787
- 145521 words of memory out of 5000000
- 8725 multiletter control sequences out of 15000+600000
- 22820 words of font info for 32 fonts, out of 8000000 for 9000
+ 4990 strings out of 492641
+ 74304 string characters out of 6131787
+ 144792 words of memory out of 5000000
+ 8761 multiletter control sequences out of 15000+600000
+ 22563 words of font info for 31 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 41i,18n,38p,1613b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,18n,41p,1239b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on /home/jeff/Documents/classes/spring2019/thesis/src/template.pdf (10 pages, 276158 bytes).
+Output written on /home/jeff/Documents/classes/spring2019/thesis/src/template.pdf (12 pages, 428312 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
