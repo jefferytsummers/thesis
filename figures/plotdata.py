@@ -5,7 +5,7 @@ import numpy as np
 xdata = []
 ydata = []
 data = [[],[]]
-filename = '22-21-50.csv'
+filename = '20-21-6.csv'
 infile = open(filename, 'r')
 
 count = 0
@@ -22,7 +22,8 @@ for line in infile:
     count += 1
 infile.close()
 data[1] = [_/10 for _ in data[1]]
-data[0] = [_ if _ > 450 else np.nan for _ in data[0]]
+data[0] = [_ if _ > 350 else np.nan for _ in data[0]]
+print(data[0][-1])
 
 plt.plot(data[1], data[0])
 plt.ylabel('Mode position (px)')

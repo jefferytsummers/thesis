@@ -1,22 +1,59 @@
-\section*{IV. RESULTS}
-\addcontentsline{toc}{section}{IV.\hspace{0.18in}Results}
+\section*{IIII. RESULTS}
+\label{sec:results}
+\addcontentsline{toc}{section}{IV. \hspace{0.05in} Results}
 \hspace{0.25in}
-The table below lists the mixtures of ethanol used to test for a change in index of refraction (*This initial data is poorly measured and more data is being taken*). The plot below shows the different indices of refraction corresponding to mixture A being injected over the interval $[45.0, 55.0]$. Similarly mixture B was injected over the interval $[60.0, 75.0]$, and mixture C over $[85.0, 95.0]$. The dip in mode position is not expected over the first two intervals as we expect the mode to shift horizontally if the index of refraction in the chamber becomes larger than the original. However, the water used had been sitting in a syringe for a few days and may have actually increased in index of refraction, meaning that the index of the water in the chamber before injecting the first mixture may have been higher than the first two mixtures.
+The table below lists the mixtures of ethanol used to test for a change in index of refraction. The plot below shows the different indices of refraction corresponding to mixture A being injected over the interval $[25, 55]$. Similarly mixture B was injected over the interval $[70, 90]$, and mixture C over $[100, 150]$. After the mixtures have time to settle in the chamber, they are flushed out with the same deionized water used to indicate the baseline mode position. Upon injecting a mixture with a higher index into the chamber we notice that the mode position shifts, as expected. 
 
 \begin{wrapfigure}{R}{4in}
-\hskip+2cm\begin{tabular}{| c c c c |}
+\hskip+1.7cm\begin{tabular}{| c c c c |}
 	\hline
 	Mixtures      	 & A     			  & B      			   & C \\
 	\hline
 	Ethanol (ml)  	 & 10.\underline{0}   & 20.\underline{0}   & 30.\underline{0} \\
 	Water   (ml)  	 & 100.\underline{0}  & 100.\underline{0}  & 100.\underline{0} \\
-   	Index         	 & 1.338\underline{0} & 1.341\underline{8} & 1.345\underline{0} \\
+	Index         	 & 1.338\underline{0} & 1.341\underline{8} & 1.345\underline{0} \\
+	Pixel Shift  	 & 80.\underline{0}	  & 135.\underline{0}  & 245.\underline{0} \\
+	Change in Index  & 0.004\underline{9} & 0.005\underline{2} & 0.011\underline{9} \\   
 	\hline
 \end{tabular}
 	\includegraphics[width=4in]{annotated_mode_4-1-2019}
+	\caption{Index shift measurements for ethanol.}
 \end{wrapfigure}
 
 \hspace{0.1in}
-From this data we can infer a change in index of refraction of the medium once the index values of each mixture is known.
+Using this data we can acquire a quantitative value for how large of an index shift results from a shift in one pixel. All of the mixtures used for testing have indices between 1.3380 and 1.3464, meaning that when the pixel shift of each mixture is plotted against the index of each we should expect a linear graph (see Figure \ref{fig:modevsindex}) since small variations in reflected angle will yield a proportional shift in pixels.
+By extrapolating the data provided in the figure below we that a shift in one pixel corresponds to a shift of about 0.0018 in index of refraction. At this level of sensitivty the exceeds the necessary sensitive to detect surface loading \cite{roberstonpaper}.
 
-\end{document}
+\begin{figure}
+\hskip+1.7cm\begin{tabular}{| c c c c |}
+		\hline
+		Mixtures      	 & A     			  & B      			   & C \\
+		\hline
+		Acetone (ml)  	 & 10.\underline{0}   & 20.\underline{0}   & 30.\underline{0} \\
+		Water   (ml)  	 & 100.\underline{0}  & 100.\underline{0}  & 100.\underline{0} \\
+		Index         	 & 1.338\underline{4} & 1.343\underline{0} & 1.346\underline{4} \\
+		Pixel Shift  	 & 111.\underline{5}  & 206.\underline{0}  & 292.\underline{5} \\
+		Change in Index  & 0.005\underline{2} & 0.009\underline{8} & 0.013\underline{2} \\   
+		\hline\\
+	\end{tabular}
+	\newline
+		\includegraphics[width=4in]{acetone_mode.png}
+		\caption{Index shift measurements for acetone.}
+\end{figure}
+\vspace{-1.2cm}
+\begin{figure}
+\hskip+1.7cm\begin{tabular}{| c c c c |}
+		\hline
+		Mixtures      	 & A     			  & B      			   & C \\
+		\hline
+		70\% Isop Alc. (ml)  	 & 10.\underline{0}   & 20.\underline{0}   & 30.\underline{0} \\
+		Water   (ml)  	 & 100.\underline{0}  & 100.\underline{0}  & 100.\underline{0} \\
+		Index         	 & 1.339\underline{8} & 1.341\underline{2} & 1.344\underline{7} \\
+		Pixel Shift  	 & 84.\underline{5}	  & 164.\underline{5}  & 223.\underline{0} \\
+		Change in Index  & 0.006\underline{6} & 0.008\underline{0} & 0.011\underline{5} \\   
+		\hline
+	\end{tabular}
+	\newline
+		\includegraphics[width=4in]{isopropal_mode.png}
+		\caption{Index shift measurements for 70\% isopropyl alcohol.}
+\end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.2.27)  17 APR 2019 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.2.27)  22 APR 2019 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -379,19 +379,25 @@ Package pdftex.def Info: ../figures/spr.png  used on input line 16.
 <../figures/experimental_setup.png, id=35, 793.46437pt x 502.12593pt>
 File: ../figures/experimental_setup.png Graphic file (type png)
 <use ../figures/experimental_setup.png>
-Package pdftex.def Info: ../figures/experimental_setup.png  used on input line 27.
-(pdftex.def)             Requested size: 469.75502pt x 297.27841pt.
+Package pdftex.def Info: ../figures/experimental_setup.png  used on input line 28.
+(pdftex.def)             Requested size: 328.82707pt x 208.0949pt.
  [2 <../figures/experimental_setup.png (PNG copy)>]) [3]
 \openout2 = `experimentaldesign.aux'.
 
- (/home/jeff/Documents/classes/spring2019/thesis/src/experimentaldesign.tex) [4
+ (/home/jeff/Documents/classes/spring2019/thesis/src/experimentaldesign.tex
+<../figures/multilayer.png, id=43, 86.0013pt x 121.1727pt>
+File: ../figures/multilayer.png Graphic file (type png)
+<use ../figures/multilayer.png>
+Package pdftex.def Info: ../figures/multilayer.png  used on input line 8.
+(pdftex.def)             Requested size: 144.54pt x 203.65378pt.
+) [4
 
 
-]
+ <../figures/multilayer.png>]
 \openout2 = `methods.aux'.
 
  (/home/jeff/Documents/classes/spring2019/thesis/src/methods.tex
-<../figures/reflectivity_dip.png, id=46, 388.23444pt x 267.10992pt>
+<../figures/reflectivity_dip.png, id=49, 388.23444pt x 267.10992pt>
 File: ../figures/reflectivity_dip.png Graphic file (type png)
 <use ../figures/reflectivity_dip.png>
 Package pdftex.def Info: ../figures/reflectivity_dip.png  used on input line 7.
@@ -401,57 +407,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<../figures/pixelshiftfromangle.png, id=47, 935.74594pt x 391.4625pt>
+<../figures/pixelshiftfromangle.png, id=50, 935.74594pt x 391.4625pt>
 File: ../figures/pixelshiftfromangle.png Graphic file (type png)
 <use ../figures/pixelshiftfromangle.png>
 Package pdftex.def Info: ../figures/pixelshiftfromangle.png  used on input line 20.
-(pdftex.def)             Requested size: 433.62pt x 181.40099pt.
+(pdftex.def)             Requested size: 361.34999pt x 151.17047pt.
 [5
 
 
  <../figures/reflectivity_dip.png> <../figures/pixelshiftfromangle.png>]
-<../figures/modeposition_vs_index.png, id=53, 777.6252pt x 529.7391pt>
+<../figures/modeposition_vs_index.png, id=56, 777.6252pt x 529.7391pt>
 File: ../figures/modeposition_vs_index.png Graphic file (type png)
 <use ../figures/modeposition_vs_index.png>
 Package pdftex.def Info: ../figures/modeposition_vs_index.png  used on input line 53.
-(pdftex.def)             Requested size: 433.62pt x 295.39897pt.
+(pdftex.def)             Requested size: 361.34999pt x 246.16446pt.
 ) [6 <../figures/modeposition_vs_index.png>]
 \openout2 = `results.aux'.
 
  (/home/jeff/Documents/classes/spring2019/thesis/src/results.tex
-<../figures/annotated_mode_4-1-2019.png, id=59, 462.528pt x 346.896pt>
+<../figures/annotated_mode_4-1-2019.png, id=62, 462.528pt x 346.896pt>
 File: ../figures/annotated_mode_4-1-2019.png Graphic file (type png)
 <use ../figures/annotated_mode_4-1-2019.png>
-Package pdftex.def Info: ../figures/annotated_mode_4-1-2019.png  used on input line 16.
+Package pdftex.def Info: ../figures/annotated_mode_4-1-2019.png  used on input line 19.
 (pdftex.def)             Requested size: 289.07999pt x 216.82004pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--17
+Underfull \hbox (badness 10000) in paragraph at lines 8--20
 [] []
  []
 
-[7
+
+LaTeX Warning: Citation `roberstonpaper' on page 7 undefined on input line 25.
+
+<../figures/acetone_mode.png, id=63, 462.528pt x 346.896pt>
+File: ../figures/acetone_mode.png Graphic file (type png)
+<use ../figures/acetone_mode.png>
+Package pdftex.def Info: ../figures/acetone_mode.png  used on input line 40.
+(pdftex.def)             Requested size: 289.07999pt x 216.82004pt.
+<../figures/isopropal_mode.png, id=64, 647.5392pt x 447.3513pt>
+File: ../figures/isopropal_mode.png Graphic file (type png)
+<use ../figures/isopropal_mode.png>
+Package pdftex.def Info: ../figures/isopropal_mode.png  used on input line 57.
+(pdftex.def)             Requested size: 289.07999pt x 199.70892pt.
+) [7
 
 
- <../figures/annotated_mode_4-1-2019.png>] (/home/jeff/Documents/classes/spring2019/thesis/src/template.aux (/home/jeff/Documents/classes/spring2019/thesis/src/abstract.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/introduction.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/experimentaldesign.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/methods.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/results.aux))
+ <../figures/annotated_mode_4-1-2019.png>] [8 <../figures/acetone_mode.png> <../figures/isopropal_mode.png>] (/home/jeff/Documents/classes/spring2019/thesis/src/template.aux (/home/jeff/Documents/classes/spring2019/thesis/src/abstract.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/introduction.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/experimentaldesign.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/methods.aux) (/home/jeff/Documents/classes/spring2019/thesis/src/results.aux))
 
 LaTeX Warning: There were undefined references.
 
- ) )
-(\end occurred when \iftrue on line 194 was incomplete)
-(\end occurred when \ifnum on line 194 was incomplete) 
+ ) 
 Here is how much of TeX's memory you used:
- 4990 strings out of 492641
- 74304 string characters out of 6131787
- 144792 words of memory out of 5000000
- 8761 multiletter control sequences out of 15000+600000
- 22563 words of font info for 31 fonts, out of 8000000 for 9000
+ 5012 strings out of 492641
+ 74817 string characters out of 6131787
+ 150139 words of memory out of 5000000
+ 8778 multiletter control sequences out of 15000+600000
+ 25411 words of font info for 33 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  41i,18n,41p,1239b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on /home/jeff/Documents/classes/spring2019/thesis/src/template.pdf (12 pages, 428312 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/jeff/Documents/classes/spring2019/thesis/src/template.pdf (13 pages, 517045 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
