@@ -1,0 +1,32 @@
+# Fdb version 3
+["bibtex test"] 1556143490 "test.aux" "test.bbl" "test" 1556143490
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/ieeetr.bst" 1480098433 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
+  "references.bib" 1556143488 128 443bbba37353042152ff8c978cc20a98 ""
+  "test.aux" 1556143490 95 3320c900575872a5ee7e81836c189475 ""
+  (generated)
+  "test.blg"
+  "test.bbl"
+["pdflatex"] 1556143490 "/home/jeff/Documents/classes/spring2019/thesis/conclusions/test.tex" "/home/jeff/Documents/classes/spring2019/thesis/conclusions/test.pdf" "test" 1556143490
+  "/etc/texmf/web2c/texmf.cnf" 1551276080 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/jeff/Documents/classes/spring2019/thesis/conclusions/test.aux" 1556143490 95 3320c900575872a5ee7e81836c189475 ""
+  "/home/jeff/Documents/classes/spring2019/thesis/conclusions/test.tex" 1556143151 157 04e437ab2804a9059de2619c81387474 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1480098701 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1523050425 19823 fcbc01552b07b608574cbf8e1977e0c0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1523050425 8294 b0f177401f895563eb19304d2389582d ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1535076666 32752 ce45b90d2fda49befaa367e6f5986072 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1535076666 32752 ce45b90d2fda49befaa367e6f5986072 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1551276118 2885931 54a0ba4e594f83ea336338297f8ab976 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1551276141 4219051 fa6b64cbcff186e20ebc1dcf9d85c18c ""
+  "test.aux" 1556143490 95 3320c900575872a5ee7e81836c189475 ""
+  "test.bbl" 1556143490 133 b49840af48dc3a31330b2ac5b52a3aa0 "bibtex test"
+  "test.tex" 1556143151 157 04e437ab2804a9059de2619c81387474 ""
+  (generated)
+  "test.pdf"
+  "/home/jeff/Documents/classes/spring2019/thesis/conclusions/test.pdf"
+  "test.log"
+  "test.aux"
+  "/home/jeff/Documents/classes/spring2019/thesis/conclusions/test.log"

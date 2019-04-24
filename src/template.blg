@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/dev/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: template.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: experimentaldesign.aux
+A level-1 auxiliary file: methods.aux
+A level-1 auxiliary file: results.aux
+A level-1 auxiliary file: conclusion.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "roberstonpaper"
+You've used 1 entry,
+            1876 wiz_defined-function locations,
+            493 strings with 3789 characters,
+and the built_in function-call counts, 364 in all, are:
+= -- 39
+> -- 4
+< -- 0
++ -- 2
+- -- 1
+* -- 24
+:= -- 53
+add.period$ -- 1
+call.type$ -- 1
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 1
+duplicate$ -- 19
+empty$ -- 34
+format.name$ -- 1
+if$ -- 90
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 6
+num.names$ -- 1
+pop$ -- 1
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 17
+stack$ -- 0
+substring$ -- 36
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 3
+width$ -- 2
+write$ -- 13
+(There was 1 warning)

@@ -1,8 +1,8 @@
-\section*{IIII. RESULTS}
+\section*{IV. RESULTS}
 \label{sec:results}
 \addcontentsline{toc}{section}{IV. \hspace{0.05in} Results}
 \hspace{0.25in}
-The table below lists the mixtures of ethanol used to test for a change in index of refraction. The plot below shows the different indices of refraction corresponding to mixture A being injected over the interval $[25, 55]$. Similarly mixture B was injected over the interval $[70, 90]$, and mixture C over $[100, 150]$. After the mixtures have time to settle in the chamber, they are flushed out with the same deionized water used to indicate the baseline mode position. Upon injecting a mixture with a higher index into the chamber we notice that the mode position shifts, as expected. 
+The table in Figure \ref{fig:ethshift} lists the mixtures of ethanol used to test for a change in index of refraction. The plot below shows the different indices of refraction corresponding to mixture A being injected over the interval $[25, 55]$. Similarly mixture B was injected over the interval $[70, 90]$, and mixture C over $[100, 150]$. After the mixtures have time to settle in the chamber, they are flushed out with the same deionized water used to indicate the baseline mode position. Upon injecting a mixture with a higher index into the chamber we notice that the mode position shifts, as expected. 
 
 \begin{wrapfigure}{R}{4in}
 \hskip+1.7cm\begin{tabular}{| c c c c |}
@@ -18,11 +18,12 @@ The table below lists the mixtures of ethanol used to test for a change in index
 \end{tabular}
 	\includegraphics[width=4in]{annotated_mode_4-1-2019}
 	\caption{Index shift measurements for ethanol.}
+	\label{fig:ethshift}
 \end{wrapfigure}
 
 \hspace{0.1in}
-Using this data we can acquire a quantitative value for how large of an index shift results from a shift in one pixel. All of the mixtures used for testing have indices between 1.3380 and 1.3464, meaning that when the pixel shift of each mixture is plotted against the index of each we should expect a linear graph (see Figure \ref{fig:modevsindex}) since small variations in reflected angle will yield a proportional shift in pixels.
-By extrapolating the data provided in the figure below we that a shift in one pixel corresponds to a shift of about 0.0018 in index of refraction. At this level of sensitivty the exceeds the necessary sensitive to detect surface loading \cite{roberstonpaper}.
+Using this data we can acquire a value of an index shift per pixel shift to quantify the sensitivity of the sensor. All of the mixtures used for testing have indices between 1.3380 and 1.3464, meaning that when the pixel shift of each mixture is plotted against the index of each we should expect a linear graph (see Figure \ref{fig:modevsindex}) since small variations in reflected angle will yield a proportional shift in pixels.
+By extrapolating the data provided in the figure below we that a shift in one pixel corresponds to a shift of about 0.0018 in index of refraction. This level of sensitivty the exceeds the necessary sensitive to detect surface loading \cite{roberstonpaper}.
 
 \begin{figure}
 \hskip+1.7cm\begin{tabular}{| c c c c |}
@@ -34,11 +35,11 @@ By extrapolating the data provided in the figure below we that a shift in one pi
 		Index         	 & 1.338\underline{4} & 1.343\underline{0} & 1.346\underline{4} \\
 		Pixel Shift  	 & 111.\underline{5}  & 206.\underline{0}  & 292.\underline{5} \\
 		Change in Index  & 0.005\underline{2} & 0.009\underline{8} & 0.013\underline{2} \\   
-		\hline\\
+		\hline
 	\end{tabular}
 	\newline
-		\includegraphics[width=4in]{acetone_mode.png}
-		\caption{Index shift measurements for acetone.}
+		\includegraphics[width=4in]{annotated_acetone_mode.png}
+		\caption{\small{Index shift measurements for acetone.}}
 \end{figure}
 \vspace{-1.2cm}
 \begin{figure}
@@ -54,6 +55,6 @@ By extrapolating the data provided in the figure below we that a shift in one pi
 		\hline
 	\end{tabular}
 	\newline
-		\includegraphics[width=4in]{isopropal_mode.png}
-		\caption{Index shift measurements for 70\% isopropyl alcohol.}
+		\includegraphics[width=4in]{annotated_isopropal_mode.png}
+		\caption{\small{Index shift measurements for 70\% isopropyl alcohol.}}
 \end{figure}
