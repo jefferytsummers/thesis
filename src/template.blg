@@ -10,45 +10,45 @@ A level-1 auxiliary file: conclusion.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "roberstonpaper"
-You've used 1 entry,
+You've used 2 entries,
             1876 wiz_defined-function locations,
-            493 strings with 3789 characters,
-and the built_in function-call counts, 364 in all, are:
-= -- 39
-> -- 4
+            501 strings with 3958 characters,
+and the built_in function-call counts, 642 in all, are:
+= -- 68
+> -- 15
 < -- 0
-+ -- 2
-- -- 1
-* -- 24
-:= -- 53
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 1
++ -- 6
+- -- 4
+* -- 47
+:= -- 94
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 19
-empty$ -- 34
-format.name$ -- 1
-if$ -- 90
+cite$ -- 2
+duplicate$ -- 32
+empty$ -- 59
+format.name$ -- 4
+if$ -- 157
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 6
-num.names$ -- 1
-pop$ -- 1
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 9
+num.names$ -- 2
+pop$ -- 2
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 17
+skip$ -- 25
 stack$ -- 0
-substring$ -- 36
-swap$ -- 11
+substring$ -- 55
+swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3
-width$ -- 2
-write$ -- 13
+while$ -- 7
+width$ -- 3
+write$ -- 24
 (There was 1 warning)
