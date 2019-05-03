@@ -9,4 +9,17 @@ W.~M. Robertson, ``Experimental measurement of the effect of termination on
   surface electromagnetic waves in one-dimensional photonic bandgap arrays,''
   {\em Journal of Lightwave Technology}, vol.~17, no.~11, pp.~2013--2017, 1999.
 
+\bibitem{JACKSONEM}
+J.~D. Jackson, {\em Classical Electrodynamics}.
+\newblock Wiley, 3~ed., 1998.
+
+\bibitem{griffiths2005introduction}
+D.~J. Griffiths, {\em Introduction to Electrodynamics}.
+\newblock Cambridge University Press, 4~ed., 2017.
+
+\bibitem{farmer2012biosensing}
+A.~Farmer, A.~C. Friedli, S.~M. Wright, and W.~M. Robertson, ``Biosensing using
+  surface electromagnetic waves in photonic band gap multilayers,'' {\em
+  Sensors and Actuators B: Chemical}, vol.~173, pp.~79--84, 2012.
+
 \end{thebibliography}

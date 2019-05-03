@@ -9,46 +9,44 @@ A level-1 auxiliary file: results.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "roberstonpaper"
-You've used 2 entries,
+You've used 5 entries,
             1876 wiz_defined-function locations,
-            501 strings with 3958 characters,
-and the built_in function-call counts, 642 in all, are:
-= -- 68
-> -- 15
+            517 strings with 4311 characters,
+and the built_in function-call counts, 1261 in all, are:
+= -- 130
+> -- 37
 < -- 0
-+ -- 6
-- -- 4
-* -- 47
-:= -- 94
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 2
++ -- 15
+- -- 10
+* -- 85
+:= -- 183
+add.period$ -- 7
+call.type$ -- 5
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 32
-empty$ -- 59
-format.name$ -- 4
-if$ -- 157
+cite$ -- 5
+duplicate$ -- 65
+empty$ -- 126
+format.name$ -- 10
+if$ -- 311
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 9
-num.names$ -- 2
-pop$ -- 2
+int.to.str$ -- 5
+missing$ -- 7
+newline$ -- 20
+num.names$ -- 5
+pop$ -- 14
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 25
+skip$ -- 38
 stack$ -- 0
-substring$ -- 55
-swap$ -- 16
+substring$ -- 79
+swap$ -- 25
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 7
-width$ -- 3
-write$ -- 24
-(There was 1 warning)
+while$ -- 13
+width$ -- 6
+write$ -- 54
